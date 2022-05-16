@@ -32,10 +32,3 @@ class HashMap:
             for keyval in self.array[array_index]:
                 if keyval[0] == key:
                     return keyval[1]
-
-
-new_hash = HashMap(10)
-
-new_hash.assign('penis', 'balls')
-
-print(new_hash.retrieve('penis'))
